@@ -86,8 +86,8 @@ def predict_digit(image_path):
     return results
 
 # Example usage
-# image_path = 'cifra_0.png' # Replace with your image path 
-image_path = 'cifra_2.png'
+image_path = 'cifra_0.png' 
+# image_path = 'cifra_2.png'
 # image_path = 'cifra_4.png'
 # image_path = 'cifra_5.png'
 # image_path = 'cifra_9.png'

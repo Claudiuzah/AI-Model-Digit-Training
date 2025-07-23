@@ -34,7 +34,7 @@ model.compile(optimizer='adam',
 model.summary()
 
 # Train the model
-history = model.fit(x_train, y_train, epochs=10, 
+history = model.fit(x_train, y_train, epochs=100, 
                     validation_data=(x_test, y_test))
 
 # Evaluate the model
